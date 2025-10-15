@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Fundamentals Assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>JavaScript Fundamentals Demo</h1>
+        <p id="greeting-message">Welcome! Let's explore JS basics, functions, loops, and the DOM.</p>
+    </header>
+
+    <main>
+        <section class="section-container">
+            <h2>Part 1 & 2: Logic and Functions</h2>
+            <div class="input-group">
+                <label for="user-age">Enter Your Age:</label>
+                <input type="number" id="user-age" min="1" placeholder="Age">
+                <button id="check-btn">Check Status & Calculate</button>
+            </div>
+            <p id="status-output" class="output">Status: Waiting for input...</p>
+            <p id="total-output" class="output">Calculation: 0</p>
+        </section>
+
+        <section class="section-container">
+            <h2>Part 3: Dynamic Loop Generation</h2>
+            <div class="loop-controls">
+                <p>Generating a dynamic list using a **for loop** and a countdown using a **while loop**.</p>
+                <button id="generate-list-btn">Generate List</button>
+            </div>
+            <ul id="dynamic-list">
+                </ul>
+            <p id="countdown-output" class="output"></p>
+        </section>
+
+        <section class="section-container">
+            <h2>Part 4: DOM Mastery</h2>
+            <p id="dom-text">This is the original text. Click the button to change its content and style.</p>
+            <button id="toggle-btn">Toggle Style (Class)</button>
+            <button id="add-element-btn">Add New DOM Element</button>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 JS Master</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
